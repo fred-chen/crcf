@@ -2,7 +2,7 @@ from crcf import gettarget
 
 t = gettarget("pro.chenp.net")
 shell = t.newshell()
-command = shell.exe("sleep 60")
+command = shell.exe("echo Hello CRCF!")
 if command.succ():
     print("Command succeeded")
 else:

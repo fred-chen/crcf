@@ -1,9 +1,10 @@
 # CRCF - Concurrent Remote Control Framework
 
 提供对多个长时间连接的远程设备的并发控制。
+
 ## 架构
 
-架构源自于一个更老的项目“CCTF - CONCURRENT CONTROL TEST FRAMEWORK”。本项目将其进行裁剪，将涉及测试harness的部分取消，保留远程设备并发控制的能力并进行日志优化。
+架构源自于一个更老的项目“CCTF - CONCURRENCY CONTROL TEST FRAMEWORK”。本项目将其进行裁剪，将涉及测试harness的部分取消，保留远程设备并发控制的能力并进行日志优化。
 
 基础架构如下：
 
